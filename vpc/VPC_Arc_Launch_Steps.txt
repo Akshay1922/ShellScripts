@@ -1,0 +1,7 @@
+
+1- Create VPC  -input = CIDR Block  -output = VPC ID
+2- Create Subnet  -input = VPC ID, CIDR Block    -output = Subnet ID
+3- Create Internet-Gateway  -output = IGW ID
+4- Attach Internet-Gateway -input = VPC ID, IGW ID
+5- Create Rout-Table  -input = VPC ID
+6- Attach Internet-Gateway to the Rout-Table   -input = Rout-Table-ID, Destination CIDR, IGW-ID
